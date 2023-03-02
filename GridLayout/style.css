@@ -1,0 +1,67 @@
+/*
+GENERIC RULES
+*/
+:root{
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #709b90;
+    font-family: "Calibri", sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*
+GRID
+*/
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 1.5em;
+    background-color: black;
+}
+.container > *{
+    border: 1px dotted #000;
+
+}
+
+header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: yellow;
+}
+
+.site-nav{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: darksalmon;
+}
+
+main{
+    grid-column: 1/2;
+    grid-row: 3/5;
+    background-color: chocolate;
+}
+
+.sidebar-top{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: darksalmon;
+}
+
+.sidebar-bottom{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: salmon;
+}

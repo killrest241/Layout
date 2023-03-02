@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Ink</h1>
+  </header>
+  <nav>
+    <ul class="site-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Feature</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Support</a></li>
+      <li class="nav-right">
+        <a href="#">About</a></li>
+    </ul>
+  </nav>
+  <main class="flex">
+    <div class="column-main tile">
+      <h1>Some title</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum quis dolor vitae feugiat. Nam dignissim id sapien id blandit. Nunc malesuada dictum enim, sit amet commodo risus maximus ac. Suspendisse id tempor orci, in congue ex. Nulla non odio eget eros blandit consequat nec pellentesque arcu. Aenean maximus tortor magna, sit amet maximus magna egestas id. Nunc tempus diam nec sodales suscipit.
+
+        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Aenean volutpat nibh non malesuada convallis. Ut facilisis, ipsum non faucibus dictum, ex sapien sagittis libero, ac egestas mi ligula nec lacus. Suspendisse volutpat justo vel augue dignissim, in mollis tellus aliquam. Morbi pharetra arcu ex, vitae ullamcorper sapien luctus nec. Nulla facilisi. Morbi mattis, metus vel sagittis tristique, dui velit tempus risus, vitae blandit felis augue at lectus. Nulla vel auctor enim. Maecenas bibendum in nunc ut auctor. Aliquam nunc mi, cursus tempor quam in, condimentum porttitor justo. Pellentesque semper aliquet ipsum sed gravida. In vitae ultricies purus. Sed ac nibh at justo interdum egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+        Nunc aliquet elementum varius. Morbi luctus nisi lacus, ut consectetur nisi facilisis eget. Nulla mollis eu nibh eu hendrerit. Vivamus dapibus eu quam pretium fermentum. Duis imperdiet nulla magna, in dapibus eros tempor ut. Pellentesque fermentum, tortor ac dapibus viverra, magna dolor pulvinar tellus, at faucibus lacus tellus quis sem. Suspendisse auctor consequat ante, at pharetra turpis blandit ut. Quisque et posuere dolor. Suspendisse commodo mauris eget tempus vehicula. Aliquam scelerisque dolor imperdiet porttitor auctor.
+
+        Mauris erat est, lacinia vel lorem in, viverra tempus lectus. Sed volutpat dignissim leo, eu gravida dui dapibus vitae. Suspendisse id tempus nisl. Quisque vulputate rhoncus risus eu porta. Maecenas odio enim, ultrices eget interdum id, posuere sit amet nulla. Praesent vulputate, mi nec fermentum sodales, lacus nibh ullamcorper orci, eget bibendum lorem mauris id augue. Quisque ullamcorper elit mauris, vel tincidunt ipsum facilisis at. Phasellus vulputate risus sit amet nisl mattis mattis. Vestibulum cursus tincidunt elit ac commodo. Maecenas vitae feugiat tortor. Quisque finibus malesuada tortor vel sollicitudin. Pellentesque scelerisque lacus ut posuere ullamcorper. Donec ornare nisi in volutpat blandit. Sed luctus justo eget nibh scelerisque, non semper erat fringilla.
+      </p>
+    </div>
+    <div class="column-sidebar">
+      <div class="tile">
+        <form class="login-form">
+          <h3>Login</h3>
+          <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+          </div>
+          <button class="button">Login</button>
+        </form>
+      </div>
+      <div class="special-offer tile centered">
+        <small>Starting at</small>
+        <div class="cost">
+          <span class="cost-currency">$</span>
+          <span class="cost-dollar">20</span>
+          <span class="cost-cents">20</span>
+        </div>
+        <a href="#" class="cta-button">SignUp</a>
+      </div>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>
